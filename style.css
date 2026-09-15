@@ -11,3 +11,8 @@ footer{background:#201e1b;color:#eee;padding:55px 7% 20px}.footer-grid{display:g
 @media(max-width:900px){.header nav,.header>.btn{display:none}.menu{display:block}.hero{min-height:570px}.hero h1{font-size:43px}.service-grid{grid-template-columns:repeat(3,1fr);gap:35px}.service-grid article{border:0}.gallery{grid-template-columns:repeat(2,1fr)}.about{grid-template-columns:1fr}.about-image{min-height:330px}.footer-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:560px){.header{padding:0 5%}.hero-content{margin-left:0}.hero h1{font-size:37px}.actions{flex-direction:column;align-items:stretch}.section{padding:55px 5%}.service-grid{grid-template-columns:repeat(2,1fr);gap:28px 5px}.gallery{grid-template-columns:1fr 1fr}.section-head{align-items:start;gap:15px;flex-direction:column}.section-head h2,.about h2{font-size:32px}.features{grid-template-columns:1fr}.footer-grid{grid-template-columns:1fr}}.logo img{height:60px;width:auto;display:block;object-fit:contain;}
 .logo{display:flex;align-items:center;gap:10px;text-decoration:none}.logo-circle{width:52px;height:52px;border-radius:50%;background:#b58a4a;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 8px #0003}.logo-h{font-family:Georgia,serif;font-size:29px;font-weight:bold;color:white}.logo-text{display:flex;flex-direction:column;line-height:1.05}.logo-text strong{font-size:16px;letter-spacing:2px;color:#252321}.logo-text small{margin-top:5px;font-size:9px;letter-spacing:3px;color:#b58a4a}
+.hero{
+  background:
+    linear-gradient(90deg,rgba(0,0,0,.60),rgba(0,0,0,.12)),
+    url('IMG-20260916-WA0000.jpg') center/cover no-repeat;
+}
