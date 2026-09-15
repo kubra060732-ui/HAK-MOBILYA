@@ -668,3 +668,120 @@ footer{
     box-shadow: none !important;
     border: none !important;
 }
+
+/* ===== HAKKIMIZDA SON TASARIM ===== */
+
+#hakkimizda.about{
+    position: relative;
+    display: block;
+    min-height: 600px;
+
+    background-image:
+        linear-gradient(
+            90deg,
+            rgba(255,255,255,0.90) 0%,
+            rgba(255,255,255,0.76) 38%,
+            rgba(255,255,255,0.18) 72%,
+            rgba(255,255,255,0.05) 100%
+        ),
+        url("IMG-20260916-WA0007.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    padding: 90px 8%;
+    box-sizing: border-box;
+}
+
+/* Eski ayrı fotoğraf alanını tamamen kaldır */
+#hakkimizda .about-image{
+    display: none !important;
+}
+
+/* Yazı alanı */
+#hakkimizda .about-text{
+    position: relative;
+    z-index: 2;
+    width: 52%;
+    max-width: 620px;
+    padding: 0;
+    background: transparent !important;
+}
+
+/* Başlık */
+#hakkimizda h2{
+    color: #171717;
+    font-size: 52px;
+    margin: 10px 0 20px;
+}
+
+/* HAKKIMIZDA küçük yazısı */
+#hakkimizda .eyebrow{
+    color: #a67c2d;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+/* Açıklama */
+#hakkimizda .about-text > p:not(.eyebrow){
+    color: #333;
+    line-height: 1.7;
+    max-width: 570px;
+}
+
+/* 4 özellik */
+#hakkimizda .features{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 28px 35px;
+    margin-top: 38px;
+}
+
+#hakkimizda .features div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#hakkimizda .features b{
+    color: #181818;
+}
+
+#hakkimizda .features span{
+    color: #555;
+}
+
+/* TELEFON */
+@media (max-width: 560px){
+
+    #hakkimizda.about{
+        min-height: 650px;
+        padding: 55px 7%;
+
+        background-image:
+            linear-gradient(
+                90deg,
+                rgba(255,255,255,0.93) 0%,
+                rgba(255,255,255,0.78) 55%,
+                rgba(255,255,255,0.25) 100%
+            ),
+            url("IMG-20260916-WA0007.jpg");
+
+        background-position: center;
+    }
+
+    #hakkimizda .about-text{
+        width: 100%;
+        max-width: 100%;
+    }
+
+    #hakkimizda h2{
+        font-size: 42px;
+    }
+
+    #hakkimizda .features{
+        grid-template-columns: 1fr;
+        gap: 22px;
+    }
+  }
