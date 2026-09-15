@@ -301,7 +301,7 @@ a{
 
 .about-text{
   padding:65px 8%;
-  background:#fff;
+  background:transparent;
 }
 
 .about-text>p:not(.eyebrow){
