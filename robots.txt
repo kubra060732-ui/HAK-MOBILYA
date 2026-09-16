@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kubra060732-ui.github.io/HAK-MOBILYA/sitemap.xml
